@@ -1,0 +1,95 @@
+* {
+    font-family: Helvetica;
+    padding: 0px;
+    margin: 0px;
+}
+.body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ccc;
+}
+.container {
+    width: 60%;
+    align-content: center;
+    margin: 0px auto;
+    height: 90vh;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.innerContainer {
+    width: 45%;
+    align-content: center;
+    margin: 0px auto;
+}
+.innerContainer h1 {
+    font-size: 4em;
+    color: #0866ff;
+}
+.innerContainer h2 {
+    color: #555;
+}
+.innerContainer input, .innerContainer a  {
+    display: block;
+    margin: 10px auto;
+}
+.innerContainer input {
+    width: 80%;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+}
+.loginSection {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 1px 1px 10px #ccc;
+}
+#login {
+    width: 80%;
+    background-color: #0866ff;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 1.5em;
+}
+#signUp {
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    margin: 20px auto 0px;
+    font-size: 1.2em;
+}
+.innerContainer p {
+    margin: 20px auto;
+    text-align: center;
+}
+.footer {
+    width: 60%;
+    text-align: center;
+    margin: 0px auto;
+}
+aside a{
+    display: inline-block;
+    padding: 5px 5px;
+    text-decoration: none;
+    color: #555;
+}
+aside hr  {
+    width: 80%;
+    margin: 5px auto;
+}
+@media screen and (max-width: 900px) {
+    .facebookHeading {
+        display: none;
+    }
+    .innerContainer {
+        width:80%;
+    }
+}
